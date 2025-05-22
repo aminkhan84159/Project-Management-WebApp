@@ -1,0 +1,676 @@
+[
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.IssueController",
+    "Method": "GetAllIssues",
+    "RelativePath": "api/Issue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.IssueController",
+    "Method": "AddIssue",
+    "RelativePath": "api/Issue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "issueDto",
+        "Type": "Nexus.API.Manager.Dto.IssueDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.IssueController",
+    "Method": "UpdateIssue",
+    "RelativePath": "api/Issue",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "issueId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "issueDto",
+        "Type": "Nexus.API.Manager.Dto.IssueDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.IssueController",
+    "Method": "DeleteIssue",
+    "RelativePath": "api/Issue",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "issueId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.IssueController",
+    "Method": "GetIssueById",
+    "RelativePath": "api/Issue/ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "issueId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.LoginController",
+    "Method": "EmailLogin",
+    "RelativePath": "api/Login/Email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.LoginController",
+    "Method": "UsernameLogin",
+    "RelativePath": "api/Login/Username",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "passsowrd",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.ManagerController",
+    "Method": "GetAllManagers",
+    "RelativePath": "api/Manager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.ManagerController",
+    "Method": "AddManager",
+    "RelativePath": "api/Manager",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "managerDto",
+        "Type": "Nexus.API.Manager.Dto.ManagerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.ManagerController",
+    "Method": "UpdateManager",
+    "RelativePath": "api/Manager",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "managerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "managerDto",
+        "Type": "Nexus.API.Manager.Dto.ManagerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.ManagerController",
+    "Method": "DeleteManager",
+    "RelativePath": "api/Manager",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "managerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.ManagerController",
+    "Method": "GetManagerById",
+    "RelativePath": "api/Manager/ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "managerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.MemberController",
+    "Method": "GetAllMembers",
+    "RelativePath": "api/Member",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.MemberController",
+    "Method": "AddMember",
+    "RelativePath": "api/Member",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberDto",
+        "Type": "Nexus.API.Manager.Dto.MemberDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.MemberController",
+    "Method": "UpdateMember",
+    "RelativePath": "api/Member",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "memberDto",
+        "Type": "Nexus.API.Manager.Dto.MemberDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.MemberController",
+    "Method": "DeleteMember",
+    "RelativePath": "api/Member",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.MemberController",
+    "Method": "GetMemberById",
+    "RelativePath": "api/Member/ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.ProjectController",
+    "Method": "GetAllProjects",
+    "RelativePath": "api/Project",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.ProjectController",
+    "Method": "AddProject",
+    "RelativePath": "api/Project",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectDto",
+        "Type": "Nexus.API.Manager.Dto.ProjectDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.ProjectController",
+    "Method": "UpdateProject",
+    "RelativePath": "api/Project",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "projectDto",
+        "Type": "Nexus.API.Manager.Dto.ProjectDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.ProjectController",
+    "Method": "DeleteProject",
+    "RelativePath": "api/Project",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.ProjectController",
+    "Method": "GetProjectById",
+    "RelativePath": "api/Project/ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.StatusController",
+    "Method": "GetAllStatus",
+    "RelativePath": "api/Status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.StatusController",
+    "Method": "AddStatus",
+    "RelativePath": "api/Status",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusDto",
+        "Type": "Nexus.API.Manager.Dto.StatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.StatusController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/Status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "statusDto",
+        "Type": "Nexus.API.Manager.Dto.StatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.StatusController",
+    "Method": "DeleteStatus",
+    "RelativePath": "api/Status",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.StatusController",
+    "Method": "GetStatusById",
+    "RelativePath": "api/Status/ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.TaskController",
+    "Method": "GetAllTasks",
+    "RelativePath": "api/Task",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.TaskController",
+    "Method": "AddTask",
+    "RelativePath": "api/Task",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskDto",
+        "Type": "Nexus.API.Manager.Dto.TaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.TaskController",
+    "Method": "UpdateTask",
+    "RelativePath": "api/Task",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "taskDto",
+        "Type": "Nexus.API.Manager.Dto.TaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.TaskController",
+    "Method": "DeleteTask",
+    "RelativePath": "api/Task",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.TaskController",
+    "Method": "GetTaskById",
+    "RelativePath": "api/Task/ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "Nexus.API.Manager.Dto.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userDto",
+        "Type": "Nexus.API.Manager.Dto.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.UserController",
+    "Method": "GetUserById",
+    "RelativePath": "api/User/ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.UserDetailController",
+    "Method": "GetAllUserDetails",
+    "RelativePath": "api/UserDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.UserDetailController",
+    "Method": "AddUserDetail",
+    "RelativePath": "api/UserDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDetailDto",
+        "Type": "Nexus.API.Manager.Dto.UserDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.UserDetailController",
+    "Method": "UpdateUserDetail",
+    "RelativePath": "api/UserDetail",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDetailId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userDetailDto",
+        "Type": "Nexus.API.Manager.Dto.UserDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.UserDetailController",
+    "Method": "DeleteUserDetail",
+    "RelativePath": "api/UserDetail",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDetailId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nexus.API.WebClient.Controllers.UserDetailController",
+    "Method": "GetUserDetailById",
+    "RelativePath": "api/UserDetail/ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDetailId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

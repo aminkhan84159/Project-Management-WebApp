@@ -1,0 +1,16 @@
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\obj\Debug\net8.0\Nexus.API.Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\obj\Debug\net8.0\Nexus.API.Manager.AssemblyInfoInputs.cache
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\obj\Debug\net8.0\Nexus.API.Manager.AssemblyInfo.cs
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\obj\Debug\net8.0\Nexus.API.Manager.csproj.CoreCompileInputs.cache
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\obj\Debug\net8.0\Nexus.API.Manager.sourcelink.json
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\obj\Debug\net8.0\Nexus.API.Manager.csproj.AssemblyReference.cache
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\bin\Debug\net8.0\Nexus.API.Manager.deps.json
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\bin\Debug\net8.0\Nexus.API.Manager.dll
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\bin\Debug\net8.0\Nexus.API.Manager.pdb
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\bin\Debug\net8.0\Nexus.API.DataService.dll
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\bin\Debug\net8.0\Nexus.API.DataService.pdb
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\obj\Debug\net8.0\Nexus.AP.957269BB.Up2Date
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\obj\Debug\net8.0\Nexus.API.Manager.dll
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\obj\Debug\net8.0\refint\Nexus.API.Manager.dll
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\obj\Debug\net8.0\Nexus.API.Manager.pdb
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.Manager\obj\Debug\net8.0\ref\Nexus.API.Manager.dll

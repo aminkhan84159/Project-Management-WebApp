@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Nexus.API.WebClient.props" />
+</Project>

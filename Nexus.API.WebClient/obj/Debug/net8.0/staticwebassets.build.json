@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "UJPIvDrPHTMx15HvyJj/yh3U6TxgdkB4lVGQVmtuoEw=",
+  "Source": "Nexus.API.WebClient",
+  "BasePath": "_content/Nexus.API.WebClient",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

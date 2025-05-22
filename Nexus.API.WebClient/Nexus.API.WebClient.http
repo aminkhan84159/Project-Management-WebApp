@@ -1,0 +1,6 @@
+@Nexus.API.WebClient_HostAddress = http://localhost:5194
+
+GET {{Nexus.API.WebClient_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

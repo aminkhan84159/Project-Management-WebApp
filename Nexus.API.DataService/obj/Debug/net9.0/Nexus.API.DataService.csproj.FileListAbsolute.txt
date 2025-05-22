@@ -1,0 +1,15 @@
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\bin\Debug\net9.0\Nexus.API.DataService.deps.json
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\bin\Debug\net9.0\Nexus.API.DataService.runtimeconfig.json
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\bin\Debug\net9.0\Nexus.API.DataService.dll
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\bin\Debug\net9.0\Nexus.API.DataService.pdb
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\obj\Debug\net9.0\Nexus.API.DataService.csproj.AssemblyReference.cache
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\obj\Debug\net9.0\Nexus.API.DataService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\obj\Debug\net9.0\Nexus.API.DataService.AssemblyInfoInputs.cache
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\obj\Debug\net9.0\Nexus.API.DataService.AssemblyInfo.cs
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\obj\Debug\net9.0\Nexus.API.DataService.csproj.CoreCompileInputs.cache
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\obj\Debug\net9.0\Nexus.API.DataService.sourcelink.json
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\obj\Debug\net9.0\Nexus.API.DataService.dll
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\obj\Debug\net9.0\refint\Nexus.API.DataService.dll
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\obj\Debug\net9.0\Nexus.API.DataService.pdb
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\obj\Debug\net9.0\Nexus.API.DataService.genruntimeconfig.cache
+C:\Users\AminKhan\source\repos\Nexus.API\Nexus.API.DataService\obj\Debug\net9.0\ref\Nexus.API.DataService.dll
