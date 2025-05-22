@@ -1,0 +1,38 @@
+body{
+    background-color: #007bff;
+}
+
+.intro{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+h3{
+    font-size: 80px;
+    font-family: cursive;
+    margin-left: 20px;
+}
+
+.container{
+    width: 100vh;
+    position: relative;
+    color: white;
+}
+
+.img1{
+    height: 500px;
+    justify-content: right;
+    overflow: hidden;
+    position: absolute;
+    top: 10%;
+    left: 130%;
+}
+
+.icon:hover{
+    color: white;
+    background-color: rgb(37, 37, 252);
+}

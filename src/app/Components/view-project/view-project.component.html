@@ -1,0 +1,20 @@
+<mat-card class="card" appearance="raised">
+    <mat-card-header>
+        <mat-card-title style="margin-left: 140px;font-size: 40px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: bold;margin-bottom: 20px;">{{ project.projectName }}</mat-card-title>
+        <mat-divider></mat-divider>
+    </mat-card-header>
+
+    <mat-card-content style="margin-top: 10px;">
+        <mat-divider></mat-divider>
+        <p align="right"> Due Date: {{ project.dueDate }}</p>
+        <p>Status: {{ status.type }}</p>
+        <p>Number od members: {{ members }}</p>
+        <p>Number of tasks: {{ tasks }}</p>
+        <p>Description: {{ project.description }}</p>
+    </mat-card-content>
+
+    <mat-card-actions>
+        <a style="margin-left: 170px; margin-top: 20px;" mat-stroked-button (click)="viewTask(project.projectId)">View Tasks</a>
+    </mat-card-actions>
+
+</mat-card>

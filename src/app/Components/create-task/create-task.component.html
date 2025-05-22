@@ -1,0 +1,43 @@
+<div class="container">
+    <form #createTask="ngForm" class="form">
+
+    <mat-form-field style="border-radius: 30px;" appearance="outline">
+        <mat-label >Task Name</mat-label>
+        <input [(ngModel)]="taskObj.taskName" name="taskName" style="width: auto; height: 30px;" matInput>
+    </mat-form-field>
+
+    <mat-form-field style="border-radius: 30px;" appearance="outline">
+        <mat-label >Task type</mat-label>
+        <input [(ngModel)]="taskObj.type" name="type" style="width: auto; height: 30px;" matInput>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Select Start-End Date</mat-label>
+        <mat-date-range-input [rangePicker]="picker">
+          <input [(ngModel)]="taskObj.startDate" name="startDate" matStartDate placeholder="Start date">
+          <input [(ngModel)]="taskObj.endDate" name="endDate" matEndDate  placeholder="End date">
+        </mat-date-range-input>
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-date-range-picker #picker></mat-date-range-picker>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Priority</mat-label>
+        <mat-select [(ngModel)]="taskObj.priority" name="type">
+          <mat-option value="Low">Low</mat-option>
+          <mat-option value="Medium">Medium</mat-option>
+          <mat-option value="High">High</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" style="width: 470px; height: 150px;">
+        <mat-label>Description</mat-label>
+        <textarea [(ngModel)]="taskObj.description"  name="address" style="width: 400px; height: 120px; border-radius: 10px;" matInput></textarea>
+    </mat-form-field>
+
+    <mat-dialog-actions>
+      <button mat-button mat-dialog-close>Dismiss</button>
+      <button mat-button [mat-dialog-close]="true" (click)="onCreate()">Create</button>
+    </mat-dialog-actions>
+    </form>
+</div>

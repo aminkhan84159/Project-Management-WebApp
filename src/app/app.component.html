@@ -1,0 +1,18 @@
+<app-nav-bar (toggleSidenavEvent)="sidenav.toggle()"></app-nav-bar>
+<mat-sidenav-container class="example-container" autosize [hasBackdrop]="true">
+    <mat-sidenav #sidenav class="example-sidenav" mode="over">
+        <div class="example-sidenav-content">
+            <h1>Hello,<br></h1>
+            <h2>{{ user.firstName }} {{ user.lastName }}</h2><br>
+            <mat-list role="list">
+                <mat-list-item role="listitem">
+                    <a mat-raised-button routerLink="/Project" (click)="sidenav.toggle()">Projects <mat-icon>folder</mat-icon></a>
+                </mat-list-item>
+            </mat-list>
+        </div>
+    </mat-sidenav>
+    
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,62 @@
+body{
+    background-color: #007bff;
+}
+
+.container{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 150px;
+    left: 800px;
+    border: 2px solid;
+    width: 350px;
+    height: 490px;
+    border-radius: 30px;
+    background-color: white;
+    border-color: white;
+}
+
+.form{
+    position: absolute;
+    left: 50px;
+    top: 10px
+}
+
+.btn button{
+    padding-left: 25px;
+    margin-left: 30px;
+}
+
+mat-form-field{
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    height: 70px;
+    margin-left: 5px;
+}
+
+.container2{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 150px;
+    left: 800px;
+    border: 2px solid;
+    width: 500px;
+    height: 620px;
+    border-radius: 30px;
+    background-color: white;
+    border-color: white;
+}
+
+.form2{
+    position: absolute;
+    left: 35px;
+    top: 10px
+}
+
+.btn2 button{
+    padding-left: 25px;
+    margin-left: 80px;
+}
+

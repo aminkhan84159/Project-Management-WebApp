@@ -1,0 +1,14 @@
+.example-sidenav {
+  position: fixed;
+  top: 60px;
+  width: 300px;
+  height: 100vh;
+}
+
+mat-sidenav{
+  background-color: white;
+}
+
+mat-sidenav-content{
+    height: 100vh;
+}

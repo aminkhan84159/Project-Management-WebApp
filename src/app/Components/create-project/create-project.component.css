@@ -1,0 +1,14 @@
+.container{
+    width: 550px;
+    height: 350px;
+}
+
+.form{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+mat-form-field{
+    margin-left: 10px;
+}

@@ -1,0 +1,23 @@
+<mat-toolbar appClickedOutside>
+  @if(loggedIn){
+  <button mat-icon-button (click)="toggleSidenav()" class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon style="color: #007bff;">menu</mat-icon>
+  </button>
+  }
+  <p style="font-family: 'Times New Roman', Times, serif;color: #007bff;">Nexus</p>
+  <span class="example-spacer"></span>
+    <div class="topnav_link">
+      <a mat-raised-button routerLink="/Home"><mat-icon style="padding-left: 15px;">home</mat-icon></a>
+      <a mat-raised-button routerLink="/AboutUs">About us</a>
+      @if(loggedIn){
+        <a mat-raised-button (click)="Logout()">Logout</a>
+      }@else{
+      <a mat-raised-button routerLink="/Login">Login</a>
+      <a mat-raised-button routerLink="/SignUp">Sign Up</a>
+      }
+    </div>
+</mat-toolbar>
+
+
+
+

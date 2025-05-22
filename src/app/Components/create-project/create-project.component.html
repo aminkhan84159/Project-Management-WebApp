@@ -1,0 +1,26 @@
+<div class="container">
+    <form class="form" #createProject="ngForm">
+        <mat-form-field style="border-radius: 30px;" appearance="outline">
+            <mat-label >Project Name</mat-label>
+            <input [(ngModel)]="projectObj.projectName" name="projectName" style="width: auto; height: 30px;" matInput>
+        </mat-form-field>
+
+        <mat-form-field style="margin-top: 10px;">
+            <mat-label>Due Date</mat-label>
+            <input [(ngModel)]="projectObj.dueDate" name="dueDate" matInput [matDatepicker]="picker">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" style="width: 470px; height: 150px;">
+            <mat-label>Description</mat-label>
+            <textarea [(ngModel)]="projectObj.description"  name="address" style="width: 400px; height: 120px; border-radius: 10px;" matInput></textarea>
+        </mat-form-field>
+
+        <mat-dialog-actions>
+            <button mat-button mat-dialog-close>Dismiss</button>
+            <button mat-button [mat-dialog-close]="true" (click)="onCreate()">Create</button>
+        </mat-dialog-actions>
+    </form>
+</div>

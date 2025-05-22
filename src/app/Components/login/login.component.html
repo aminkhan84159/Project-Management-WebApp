@@ -1,0 +1,35 @@
+<body>
+    <h1 style="padding-left: 930px; padding-top: 90px; font-family: 'Times New Roman', Times, serif; color: white;">Login</h1>
+    <div class="container">
+        <form #Login="ngForm" class="form" >
+            <mat-form-field  appearance="outline">
+                <mat-label>Username/Email</mat-label>
+                <input [(ngModel)]="loginForm.loginData" name="info" matInput>
+                <mat-icon matSuffix>person</mat-icon>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>password</mat-label>
+                <input [(ngModel)]="loginForm.password" name="password"  matInput [type]="hide() ? 'password' : 'text'" />
+                <button
+                    mat-icon-button
+                    matSuffix
+                    (click)="clickEvent($event)"
+                    [attr.aria-label]="'Hide password'"
+                    [attr.aria-pressed]="hide()">
+                    <mat-icon >{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+            </mat-form-field>
+
+            <p class="btn">
+                <button type="reset" mat-raised-button>Reset</button>
+                <button type="submit" mat-raised-button [disabled]="Login.invalid" (click)="onLogin()">Login</button>
+            </p>
+
+            <mat-label style="font-family:sans-serif; margin-left: 50px;">
+                Don't Have an Account ? <a  href="/SignUp"><br><span style="margin-left: 90px;">Sign Up</span></a> here
+            </mat-label>
+        </form>
+
+    </div>
+</body>

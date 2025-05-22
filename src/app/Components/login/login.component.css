@@ -1,0 +1,90 @@
+body{
+    background-color: #007bff;
+}
+
+.container{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 150px;
+    left: 800px;
+    border: 2px solid;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: white;
+}
+
+.form{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+
+.btn button{
+    padding-left: 25px;
+    margin-left: 40px;
+}
+
+mat-form-field{
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none !important;
+}
+
+
+/* .matInput::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    border-style: none !important;
+    display: none;
+    border: none
+  } */
+
+/* .mat-form-field-appearance-outline .mat-form-field-outline,
+.mat-form-field-appearance-outline .mat-form-field-outline-thick{
+    display: none !important;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-appearance-start,
+.mat-form-field-appearance-outline .mat-form-field-appearance-end,
+.mat-form-field-appearance-outline .mat-form-field-appearance-gap{
+    border: none !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: red!important;
+    opacity: 1!important;
+} */
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: white;
+}
+  /* Font color */
+input.mat-input-element {
+    color: white;
+}
+
+.mdc-text-field--outlined{
+    border: none !important;
+}
+
+.mat-mdc-text-field-wrapper mdc-text-field mdc-text-field--outlined{
+    border: none;
+    border-color: red;
+}
+/* 
+::ng-deep .no-outline .mat-mdc-form-field-outline,
+::ng-deep .no-outline .mat-mdc-form-field-outline-start,
+::ng-deep .no-outline .mat-mdc-form-field-outline-gap,
+::ng-deep .no-outline .mat-mdc-form-field-outline-end {
+  display: none !important;
+}
+ 
+::ng-deep .no-outline .mat-mdc-form-field-flex {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+} */

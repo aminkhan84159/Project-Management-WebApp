@@ -1,0 +1,120 @@
+<body>
+    @if(userDetails == false){
+    <h1 style="padding-left: 930px; padding-top: 90px; font-family: 'Times New Roman', Times, serif; color: white;">Sign up</h1>
+    <div class="container">
+        <form #SingUp="ngForm" class="form">
+            <mat-form-field appearance="outline">
+                <mat-label>Email</mat-label>
+                <input [(ngModel)]="userSignupDataObj.email" name="email"  matInput placeholder="Email">
+                <mat-icon matSuffix>email</mat-icon>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Username</mat-label>
+                <input [(ngModel)]="userSignupDataObj.username" name="username"  matInput placeholder="Username">
+                <mat-icon matSuffix>person</mat-icon>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Password</mat-label>
+                <input  matInput [type]="hide() ? 'password' : 'text'" (blur)="comparePassword(password.value,ConfirmPassword.value)"
+                 #password="ngModel" ngModel name="password" />
+                <button
+                    mat-icon-button
+                    matSuffix
+                    (click)="clickEvent($event)"
+                    [attr.aria-label]="'Hide password'"
+                    [attr.aria-pressed]="hide()"
+                >
+                    <mat-icon >{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Confirm password</mat-label>
+                <input [(ngModel)]="userSignupDataObj.password" name="password"  matInput [type]="hide() ? 'password' : 'text'"
+                #ConfirmPassword="ngModel" (blur)="comparePassword(password.value,ConfirmPassword.value)" name="ConfirmPassword" />
+                <button
+                    mat-icon-button
+                    matSuffix
+                    (click)="clickEvent($event)"
+                    [attr.aria-label]="'Hide password'"
+                    [attr.aria-pressed]="hide()"
+                >
+                    <mat-icon >{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+            </mat-form-field>
+
+            @if(IsMatch){
+                <mat-error>
+                    Password not matched
+                </mat-error>
+            }
+
+            <p class="btn">
+                <button type="reset" mat-raised-button>Reset</button>
+                <button type="submit" (click)="signup()" mat-raised-button>Next</button>
+            </p>
+
+            <mat-label style="margin-left: 20px;">
+                Already Have an Account? <br>
+                <a href="/Login"><span style="margin-left: 80px;">Login</span></a> here
+            </mat-label>
+        </form>
+
+    </div>
+}
+@else {
+    <h1 style="padding-left: 980px; padding-top: 90px; font-family: 'Times New Roman', Times, serif;color: white;">Register</h1>
+    <div class="container2">
+        <form #Register="ngForm" class="form2">
+            <mat-form-field appearance="outline">
+                <mat-label>First name</mat-label>
+                <input [(ngModel)]="userDetailsObj.firstName" name="firstName"  matInput placeholder="First Name">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>last name</mat-label>
+                <input [(ngModel)]="userDetailsObj.lastName" name="lastName"  matInput placeholder="Last Name">
+            </mat-form-field>
+
+            
+            <mat-label >Gender:</mat-label>
+            <mat-radio-group [(ngModel)]="userDetailsObj.gender" name="gender" aria-label="Select an option" style="height: 60px;">
+                <mat-radio-button value="male">Male</mat-radio-button>
+                <mat-radio-button value="female">Female</mat-radio-button>
+            </mat-radio-group>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Phone No</mat-label>
+                <input [(ngModel)]="userDetailsObj.phoneNo" name="Phone"  matInput>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Age</mat-label>
+                <input [(ngModel)]="userDetailsObj.age" name="age" matInput>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>State</mat-label>
+                <input [(ngModel)]="userDetailsObj.state" name="state"  matInput>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>City</mat-label>
+                <input [(ngModel)]="userDetailsObj.city" name="city"  matInput>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" style="width: 430px; height: 150px;">
+                <mat-label>Address</mat-label>
+                <textarea [(ngModel)]="userDetailsObj.address" name="address" style="width: 400px; height: 120px; border-radius: 10px;" matInput></textarea>
+            </mat-form-field>
+
+            <p class="btn2">
+                <button type="reset" mat-raised-button>Reset</button>
+                <button type="submit" (click)="onRegister()" mat-raised-button>Register</button>
+            </p>
+        </form>
+    </div>
+}
+</body>
